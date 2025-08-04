@@ -46,3 +46,17 @@ var fileName= "pdfData.jpg";
     else{
        console.log( "Delete");  
     }
+
+ /** Problem 05 - ( PH Email Generator )  */ 
+var student= { name: "jhankar" 
+    , roll: 1014 
+,department: "cse" }; 
+//write your code here 
+console.log(`${student.name}${student.roll}.${student.department}@Path2D.call.bd`);
+
+/** Problem 06 :  (Current Salary )  */ 
+var experience = 30; 
+var startingSalary = 45000;
+//write your code here 
+var finalSalary = startingSalary * Math.pow(1.05,experience);
+console.log(finalSalary.toFixed(2));
